@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+                <img src="amal.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" id="drop" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="drop" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text" >
+                <h1>Hello</h1>
+                
+                
+            </div>
+
+        </div>
+
+    </div>
+<div id="about">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="about-col">
+
+                <img src="aa.jpg" alt="">
+
+             </div>
+
+            <div class="about-col-2">
+
+                <h1 class="sub-title">About</h1>
+                <p class="">MCA Graduate with a strong foundation in software development and a passion 
+                    for technology.A quick learner and problem-solver with excellent communication skills,eager to contribute to 
+                    innovative projects and grow in a dynamic team environment.</p>
+
+                <div class="tab-titles">
+
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                </div>
+                <hr>
+
+                <div class="tab-contents active-tab" id="skills">
+
+                    <ul>
+                        <li><span>Python</span><br></li>
+                        <li><span>Flutter</span><br></li>
+                        <li><span>Javascript</span><br></li>
+                        <li><span>SQL</span><br></li>
+                        <li><span>GIT</span><br></li>
+                        <li><span>HTML,CSS</span><br></li>
+                        <li><span>API Integration</span><br></li>
+                        <li><span>Mongodb</span><br></li>
+                        <li><span>Linux</span><br></li>
+                        <li><span>Cloud Computing</span><br></li>
+                        <li><span>Machine Learning</span><br></li>
+                        
+
+                    </ul>
+
+                </div>
+
+                <div class="tab-contents" id="education">
+
+                    <ul>
+                        <li><span>MCA</span><br><br>
+                            Federal Institute Of Science and Technology <br>
+                            CGPA:7.44 <br>
+                            2024</li>
+                        
+                        
+
+                    </ul>
+
+                </div>
+
+                <div class="tab-contents" id="experience">
+
+                    <ul>
+                        <li><span>Software Development Trainee</span><br><br>
+                            
+                            PetroInfotech</li>
+                        
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="project">
+
+    <div class="container">
+
+
+        <h1 class="sub-title">Projects</h1>
+
+
+        <div class="project-list">
+
+            <div>
+                <h2>Flour Door - A Flour Mill Business Solution App</h2><hr class="hr1"><br>
+                <p>The Flour Mill Business Solution introduces a transformative approach to meet the diverse demands of the flour milling industry
+                     through an innovative Flutter application. It streamlines operations and enhances customer experiences by facilitating product purchases and service bookings.
+                      With a user-friendly interface, customers can easily order flour-related products and schedule deliveries, while flour mill operators efficiently manage inventory and optimize production. Moreover, advanced booking features enable seamless scheduling of specialized services, enhancing operational efficiency and fostering stronger relationships with clientele. By leveraging mobile technology and focusing on key functionalities, this solution revolutionizes how flour milling enterprises interact with customers and manage internal operations,
+                     setting a new standard for excellence in the industry.
+                </p>
+        
+            </div>
+
+             <div>
+                <h2>Classification and Extraction of Sports/Entertainment news using ML</h2><hr><br>
+                <p>Developed a system to classify sports and entertainment news from unstructured data sources using advanced text classification techniques
+                    Implemented a Logistic Regression classifier to categorize news headlines into four categories: Business, Tech, Sports, and Entertainment
+                     Conducted a comprehensive comparative analysis of various machine learning approaches, including Naive Bayes, Logistic Regression, Random Forest, and Support Vector Machine (SVM), to determine the most effective method for news classification
+                      Demonstrated the application of machine learning in organizing large datasets and optimizing news categorization
+                </p>
+                
+            </div>
+
+             <div>
+                <h2>Hospital Management Application</h2><hr><br>
+                <p>The Hospital Management Web Application is a Django-based system designed to streamline hospital operations
+                     It features role-based access for Admins, Doctors, Patients, and Staff, enabling appointment booking, medical records management, billing. An admin dashboard provides real-time insights,
+                  ensuring efficiency and compliance with healthcare standards
+                </p>
+                
+            </div>
+        </div>
+
+        <a href="https://github.com/Amal5512" target="_blank"><button class="btn100">Github</button></a>
+
+
+    </div>
+
+
+</div>
+
+<div id="certification">
+
+    <div class="container">
+
+        <h1 class="sub-certification"> Certifications</h1>
+
+
+        <div class="certification-list">
+
+            <div>
+                <p>Google Flutter Full Stack</p>
+            </div>
+
+            <div>
+                <p>Diploma In Python</p>
+
+            </div>
+            <div>
+
+                <p>Cloud Computing</p>
+
+            </div>
+            
+
+
+        </div>
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p>amalanil5512@gmail.com</p>
+                <p>9567354486</p>
+                <a href="Amal.resume.pdf" download><button class="btn" >Download CV</button></a>
+
+            </div>
+             <div class="contact-right">
+
+                <form >
+
+                <input type="text" name="Name" placeholder="First Name" required> <br>
+                <input type="email" name="Email" placeholder="email" required><br>
+               <textarea name="Message" id="txt" placeholder="message" required></textarea><br><br>
+
+                <button class="btn">Submit</button>
+
+                </form>
+
+
+
+                
+             </div>
+            
+        </div>
+    </div>
+    <a href="https://www.linkedin.com/in/amal-a-555539287/"> <i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+     <a href="https://github.com/Amal5512"><i class="fa-brands fa-github" id="git"></i></a>
+</div>
+
+
+
+<script>
+
+    
+    let tablinks = document.getElementsByClassName("tab-links")
+    let tabcontents = document.getElementsByClassName("tab-contents")
+
+
+    function opentab(tabname) {
+        for(tablink of tablinks){
+
+            tablink.classList.remove("active-link")
+
+        }
+    }
+
+    function opentab(tabname) {
+        for(tabcontent of tabcontents){
+
+            tabcontent.classList.remove("active-tab")
+
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+</script>
+</body>
+</html>
